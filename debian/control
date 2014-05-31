@@ -7,7 +7,7 @@ Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
 Build-Depends: debhelper (>= 8), faketime, git
-Homepage: http://www.finnie.org/software/gpl-sources-download/gpl-sources-download
+Homepage: https://github.com/Whonix/gpl-sources-download
 Vcs-Browser: https://github.com/Whonix/gpl-sources-download
 Vcs-Git: https://github.com/Whonix/gpl-sources-download.git
 Standards-Version: 3.9.4
