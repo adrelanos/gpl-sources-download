@@ -1,0 +1,18 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: gpl-sources-download
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, git
+Homepage: http://www.finnie.org/software/gpl-sources-download/gpl-sources-download
+Vcs-Browser: https://github.com/Whonix/gpl-sources-download
+Vcs-Git: https://github.com/Whonix/gpl-sources-download.git
+Standards-Version: 3.9.4
+
+Package: gpl-sources-download
+Architecture: all
+Depends: damngpl, ${misc:Depends}
+Description: Downloads GPL'ed source code of all installed packages
