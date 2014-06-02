@@ -9,9 +9,9 @@ set -o pipefail
 
 error_handler() {
    echo "
-###################################
-## chroot script: ERROR detected. #
-###################################
+####################
+## ERROR detected. #
+####################
 "
 
    exit 1
@@ -28,10 +28,19 @@ if [ "$(type -t maybe_enable_apt_cache)" = "function" ]; then
    maybe_enable_apt_cache
 fi
 
-apt-get update
+apt-get \
+   $apt_timeout_opts \
+   $apt_verify_opts \
+   $apt_unattended_opts \
+   update
 
 for i in $(damngpl --source /var/lib/dpkg/status); do
-   apt-get --download-only source "$i"
+   apt-get \
+      $apt_timeout_opts \
+      $apt_verify_opts \
+      $apt_unattended_opts \
+      --download-only \
+      source "$i"
 done
 
 ## Disable apt-cacher-ng proxy.

@@ -16,3 +16,9 @@ Package: gpl-sources-download
 Architecture: all
 Depends: damngpl, ${misc:Depends}
 Description: Downloads GPL'ed source code of all installed packages
+ Used damngpl to get a list of all GPL'ed packages, then downloads them using
+ apt-get source.
+ .
+ APT (timeout) options are supported through the apt_timeout_opts environment
+ variable. Enabling an apt-cache is supported by using an exported
+ maybe_enable_apt_cache bash function.
