@@ -1,0 +1,24 @@
+gpl-sources-download(8) -- download source code for included GPL packages
+=============================================
+
+<span class="comment">
+# This file is part of Whonix.
+# Copyright (C) 2012 - 2014 Patrick Schleizer adrelanos@riseup.net
+# See the file COPYING for copying conditions.
+
+# Not using angle brackets in copyright notice for e-mail address, because
+# angle brackets would result in this file being non-deterministic. (There
+# must be a bug in Debian wheezy in ruby-ronn.)
+
+# Not using "##", because for some reason this comment would be visible in the
+# resulting man page.
+</span>
+
+## SYNOPSIS
+`gpl-sources-download`
+
+## DESCRIPTION
+gpl-sources-download - download source code for included GPL packages
+
+## AUTHOR
+gpl-sources-download and this man page has been written by Patrick Schleizer (adrelanos@riseup.net).
