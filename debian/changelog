@@ -1,3 +1,9 @@
+gpl-sources-download (3:0.5-1) unstable; urgency=low
+
+  * New upstream version.
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 23 Oct 2014 22:38:43 +0000
+
 gpl-sources-download (3:0.4-1) unstable; urgency=low
 
   * New upstream version.
