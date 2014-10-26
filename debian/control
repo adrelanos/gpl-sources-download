@@ -21,4 +21,4 @@ Description: Downloads GPL'ed source code of all installed packages
  .
  APT (timeout) options are supported through the apt_timeout_opts environment
  variable. Enabling an apt-cache is supported by using an exported
- maybe_enable_apt_cache bash function.
+ apt_cache_maybe_enable bash function.
