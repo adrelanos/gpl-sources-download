@@ -5,7 +5,7 @@ apt-get source.
 
 APT (timeout) options are supported through the apt_timeout_opts environment
 variable. Enabling an apt-cache is supported by using an exported
-apt_cache_maybe_enable bash function.
+aptcachemaybeenable bash function.
 
 (This package description has been [automatically](https://github.com/Whonix/whonix-developer-meta-files/blob/master/debug-steps/packaging-helper-script) extracted and mirrored from `debian/control`.)
 
