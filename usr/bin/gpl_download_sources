@@ -32,6 +32,7 @@ apt-get \
    $apt_timeout_opts \
    $apt_verify_opts \
    $apt_unattended_opts \
+   $apt_misc_opts \
    update
 
 for i in $(damngpl --source /var/lib/dpkg/status); do
@@ -39,6 +40,7 @@ for i in $(damngpl --source /var/lib/dpkg/status); do
       $apt_timeout_opts \
       $apt_verify_opts \
       $apt_unattended_opts \
+      $apt_misc_opts \
       --download-only \
       source "$i"
 done
