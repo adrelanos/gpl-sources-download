@@ -23,11 +23,6 @@ mkdir --parents ~/sources
 
 cd ~/sources
 
-## Enable apt-cacher-ng proxy.
-if [ "$(type -t aptcachemaybeenable)" = "function" ]; then
-   aptcachemaybeenable
-fi
-
 apt-get \
    $apt_timeout_opts \
    $apt_verify_opts \
@@ -44,6 +39,3 @@ for i in $(damngpl --source /var/lib/dpkg/status); do
       --download-only \
       source "$i"
 done
-
-## Disable apt-cacher-ng proxy.
-unset http_proxy
