@@ -1,3 +1,15 @@
+commit 0a9d78ba721cfabb4229acf7cf3f0f077dc1d384
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 13 01:41:48 2015 +0200
+
+    no longer install apt-cacher-ng by default, deprecated functions aptcachemaybeenable and aptcachedisable in favor of added support for REPO_PROXY environment variable to be on par with Qubes
+
+commit 40bcb36deb8783683d9074ce52b6ad8fdf56b7c2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 3 14:59:41 2015 +0000
+
+    bumped changelog version
+
 commit ee15c07a1944fb4d0f903d44f5ee3c5de2a30eb0
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri May 15 20:27:23 2015 +0000
