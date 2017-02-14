@@ -19,5 +19,5 @@ Description: Downloads GPL'ed source code of all installed packages
  Used damngpl to get a list of all GPL'ed packages, then downloads them using
  apt-get source.
  .
- APT (timeout) options are supported through the apt_timeout_opts environment
+ APT (timeout) options are supported through the APTGETOPT environment
  variable.

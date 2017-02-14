@@ -24,18 +24,14 @@ mkdir --parents ~/sources
 cd ~/sources
 
 apt-get \
-   $apt_timeout_opts \
-   $apt_verify_opts \
+   "${APTGETOPT[@]}" \
    $apt_unattended_opts \
-   $apt_misc_opts \
    update
 
 for i in $(damngpl --source /var/lib/dpkg/status); do
    apt-get \
-      $apt_timeout_opts \
-      $apt_verify_opts \
+      "${APTGETOPT[@]}" \
       $apt_unattended_opts \
-      $apt_misc_opts \
       --download-only \
       source "$i"
 done
