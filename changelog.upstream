@@ -1,3 +1,35 @@
+commit 82b8867055bac38b8e2766cb976a44c0b104d18e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 14 19:27:16 2017 +0000
+
+    replace $apt_timeout_opts $apt_verify_opts $apt_misc_opts with "${APTGETOPT[@]}"
+
+commit 6a5c6f3bec275e8a1d124b894fec12c079843454
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 10 15:47:50 2017 +0000
+
+    remove faketime from Build-Depends:
+    
+    since no longer used for reproducible builds
+
+commit d1bdd8c8b8033ba44ddc178e8c2d88de6b13bfb6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 10 15:35:24 2017 +0000
+
+    remove debian/gain-root-command workaround
+
+commit 5c1680fc7c220f40443e4149531e9e6c7a9256c8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 10 15:26:01 2017 +0000
+
+    packaging simplification ruby-ronn (>= 0.7.3) -> ruby-ronn
+
+commit add0c8e64744ae0a319d2d7cc0e455ca52a1a7be
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jan 15 15:30:29 2017 +0000
+
+    bumped changelog version
+
 commit 97d1007e1d2796b34c8b63fc42baeccf8cccc2d9
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jan 15 08:35:31 2017 +0100
