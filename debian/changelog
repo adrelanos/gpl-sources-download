@@ -1,3 +1,9 @@
+gpl-sources-download (3:1.8-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Thu, 21 Dec 2017 20:31:25 +0000
+
 gpl-sources-download (3:1.7-1) unstable; urgency=medium
 
   * New upstream version (local package).
